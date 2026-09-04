@@ -1,0 +1,20 @@
+copy2wa/
+├── .github/workflows/build-apk.yml
+├── settings.gradle
+├── build.gradle
+├── gradle.properties
+└── app/
+    ├── build.gradle
+    └── src/main/
+        ├── AndroidManifest.xml
+        ├── java/com/copy2wa/app/
+        │   ├── MainActivity.kt
+        │   ├── CopyAccessibilityService.kt
+        │   ├── WhatsAppLauncher.kt
+        │   └── PhoneNormalizer.kt
+        └── res/
+            ├── layout/activity_main.xml
+            ├── values/strings.xml
+            ├── values/themes.xml
+            ├── drawable/ic_stat_send.xml
+            └── xml/accessibility_service_config.xml
